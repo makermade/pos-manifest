@@ -3,8 +3,10 @@
 
   <remote  name="aosp"
            fetch=".." />
+  <remote  name="caf"
+           fetch="git://codeaurora.org/" />
   <default revision="refs/tags/android-5.0.2_r1"
-           remote="aosp"
+           remote="caf"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
